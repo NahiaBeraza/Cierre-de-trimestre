@@ -1,0 +1,227 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #333;
+}
+header {
+    background: lightblue;
+    color: white;
+    text-align: center; 
+    padding: 1rem 0;
+}
+.contenedor {
+    max-width: 55rem;
+    margin: 20px auto;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1{
+    color: white;
+}
+h2 {
+    color: lightblue;
+}
+p {
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+ul li span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background: lightblue;
+    color: white;
+    position: unset;
+    font-size: larger;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    padding: 0 8%;
+    
+}
+
+.container h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+
+.container h1::after{
+    content: "";
+    background: pink;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%) ;
+
+}
+.row{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) ) ;
+    grid-gap: 30px;
+    padding-top: 35px;
+}
+
+.info{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+}
+
+.info i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: pink;
+}
+
+.info h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.info:hover{
+    background: pink;
+    color: #fff;
+    transform:scale(1.05);
+}
+
+.info:hover i{
+    color: #fff;
+}
+
+.video{
+    max-width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 8%;
+    background-color: black;
+}
+
+.fotosC{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajaTabla{
+    max-width: 100rem;
+    margin: 20px auto;
+    padding: 1rem;
+    background: lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+#estudios{
+    background-color: pink;
+}
+
+#MEMES{
+    background-color: pink;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap; /* Para que las cajas se ajusten automáticamente */
+    justify-content: space-around; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.memes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2%;
+    max-width: 80%;
+    margin-left: 1.3rem;
+    
+    
+}
+#rosa{
+    background-color: pink;
+}
+
+.cajaMemes{
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 2%;
+    background: lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.botonVol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+.iniciar {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 3%;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    font-family: serif;
+    justify-content: center;
+    align-items: center;
+}
+#negro{
+    background-color: black;
+}
+.botonVol2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
